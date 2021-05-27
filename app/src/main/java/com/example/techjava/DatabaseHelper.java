@@ -28,7 +28,10 @@ class DatabaseHelper extends SQLiteOpenHelper {
     static final String COL_CAUSE = "cause";
     static final String COL_PURPOSE = "purpose";
     static final String COL_METHOD = "method";
+    static final String COL_IMAGE_DATA = "imageData";
+    static final String COL_IMAGE_NAME = "imageName";
     static final String COL_CONSEQUENCES = "consequences";
+    static final String COL_IMAGE_SIZE = "imageSize";
     private Context myContext;
 
     DatabaseHelper(Context context) {

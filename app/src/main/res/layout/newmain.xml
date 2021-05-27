@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="33dp"
+    tools:layout_editor_absoluteY="28dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Каналы ИНФ Н1"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center|center_horizontal"
+            android:text="IСТ"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:text="IIСТ"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etI11"
+            android:layout_width="69dp"
+            android:layout_height="45dp"
+            android:background="#666666"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/operationField"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <EditText
+            android:id="@+id/etI12"
+            android:layout_width="69dp"
+            android:layout_height="45dp"
+            android:background="#666666"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/operationField"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Каналы ИНФ Н2"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center|center_horizontal"
+            android:text="IСТ"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:text="IIСТ"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etI21"
+            android:layout_width="69dp"
+            android:layout_height="45dp"
+            android:background="#666666"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/operationField"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <EditText
+            android:id="@+id/etI22"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:background="#666666"
+            android:enabled="false"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/operationField"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Число"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"></TextView>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:enabled="false"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/operationField"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Адрес"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:enabled="false"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/operationField"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="7"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="8"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="9"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="4"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="5"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="6"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="1"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="2"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="3"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="0"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/btnCE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="C"
+            android:textColor="@color/white"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toTopOf="@+id/tvResult"
+    tools:ignore="MissingConstraints">
+
+    <RadioButton
+        android:id="@+id/rbAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:onClick="RBClick"
+        android:text="Адрес" />
+
+    <RadioButton
+        android:id="@+id/rbNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RBClick"
+        android:text="Число" />
+
+    <RadioButton
+        android:id="@+id/rbI11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RBClick"
+        android:text="1.1" />
+
+    <RadioButton
+        android:id="@+id/rbI12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RBClick"
+        android:text="1.2" />
+
+    <RadioButton
+        android:id="@+id/rbI21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RBClick"
+        android:text="2.1" />
+
+    <RadioButton
+        android:id="@+id/rbI22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RBClick"
+        android:text="2.2" />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/tvResult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="result"
+    app:layout_constraintBottom_toTopOf="@+id/btnSearch"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+
+<Button
+    android:id="@+id/btnSearch"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:onClick="Search"
+    android:text="Найти"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
