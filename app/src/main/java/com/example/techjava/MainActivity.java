@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_exit) {
-            finishAndRemoveTask();
+            //finishAndRemoveTask();
+            finishAffinity();
+            System.exit(0);
         }
         return super.onOptionsItemSelected(item);
     }
